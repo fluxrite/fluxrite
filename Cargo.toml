@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["devices/fluxrite-bat-01"
+]
+
+[profile.dev]
+debug = true
+opt-level = "z"
+
+[profile.release]
+opt-level = "z"
+debug = 0
+debug-assertions = false
+codegen-units = 1
+lto = "fat"
+incremental = false
+overflow-checks = false
