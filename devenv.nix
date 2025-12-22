@@ -8,6 +8,8 @@
     renode-bin
     cargo-expand
     pkg-config
+    buck2
+    reindeer
   ];
 
   languages.rust = {
