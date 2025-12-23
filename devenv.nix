@@ -10,6 +10,9 @@
     pkg-config
     buck2
     reindeer
+    python3
+
+    clang
   ];
 
   languages.rust = {
